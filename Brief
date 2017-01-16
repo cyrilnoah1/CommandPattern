@@ -1,0 +1,10 @@
+The commands.Command Pattern encapsulates a request as an
+object, thereby letting you parameterize other objects
+with different requests, queue or log requests, and support
+undoable operations.
+
+In this example, your personal maid is none other than
+"Chitti the Robo". Hence, there might be any kind of chore that
+you can request him to do. So, we make use of the Command Pattern
+to decouple all the commands from the task, irrespective of the type of task
+that needs to be executed by Chitti.
